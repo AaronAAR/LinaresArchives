@@ -1,0 +1,27 @@
+.book-card{
+    height: 200px !important;
+}
+.book-img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 767px){
+    .book-card{
+        height: 150px !important;
+    }
+    .book-card-img{
+        width: 40%;
+    }
+    .book-card-description{
+        width: 60%;
+    }
+}
+.arrow{
+    background: #000;
+    height: 3px;
+    width: 30px;
+    margin: 0 auto;
+    position: relative; 
+    cursor: pointer;
+    
+}
